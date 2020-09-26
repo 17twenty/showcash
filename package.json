@@ -1,0 +1,41 @@
+{
+  "name": "showcash",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "deploy": "aws --profile showcash s3 sync ./dist s3://showcash-app; aws --profile showcash cloudfront create-invalidation --distribution-id XXX --paths '/*'"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "buefy": "^0.8.20",
+    "compression-webpack-plugin": "^3.1.0",
+    "core-js": "^3.6.5",
+    "moment": "^2.29.0",
+    "nprogress": "^0.2.0",
+    "vue": "^2.6.12",
+    "vue-full-screen-file-drop": "^2.0.0",
+    "vue-gtag": "^1.9.1",
+    "vue-router": "^3.4.4",
+    "vue-uuid": "^1.1.1",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.6",
+    "@vue/cli-plugin-eslint": "^4.5.6",
+    "@vue/cli-plugin-unit-jest": "^4.5.6",
+    "@vue/cli-plugin-vuex": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

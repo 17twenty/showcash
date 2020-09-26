@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+// Set your brand colors
+$light: #f4f4f4;
+$light-accent: rgb(178, 186, 197);
+$dark-accent: #706f77;
+$dark: #231e2c;
+$primary: #3ef980;
+$off-white: #fefefd;
+
+$body-font-size: 0.9em;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Open Sans', sans-serif;
+$title-family: 'Poppins';
+$subtitle-family: 'Poppins';
+$grey-dark: $dark;
+$light-accent-highlight: rgba($primary, 0.4);
+$hr-background-color: rgba($dark, 0.2);
+$table-head-background-color: $light;
+
+$label-color: $dark-accent;
+$label-weight: 400;
+$link: $primary;
+$link-hover: $primary !default;
+
+$text: #706f77;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: white;
+$footer-background-color: $body-background-color;
+$control-border-width: 1px;
+$input-border-color: #979797;
+$input-shadow: none;
+
+$button-border-width: 1px;
+$card-content-padding: 0.9rem;
+$card-shadow: 0px 4px 14px rgba(0, 0, 0, 0.3);
+$card-header-padding: 0.75rem 1rem  0.0rem 1rem;
+
+$table-background-color: inherit;
+$table-cell-border-width: 0;
+$table-head-cell-border-width: 0;
+$table-head-cell-color: $dark-accent;
+$table-color: $dark-accent;
+$table-cell-heading-color: $dark-accent;
+
+// Import Bulma's core
+@import '~bulma/sass/utilities/_all';
+
+// Set your colors
+$primary: $primary;
+$primary-invert: findColorInvert($primary);
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: (
+  'white': (
+    $white,
+    $black,
+  ),
+  'black': (
+    $black,
+    $white,
+  ),
+  'light': (
+    $light,
+    $light-invert,
+  ),
+  'dark': (
+    $dark,
+    $dark-invert,
+  ),
+  'primary': (
+    $primary,
+    $primary-invert,
+  ),
+  'info': (
+    $info,
+    $info-invert,
+  ),
+  'success': (
+    $success,
+    $success-invert,
+  ),
+  'warning': (
+    $warning,
+    $warning-invert,
+  ),
+  'danger': (
+    $danger,
+    $danger-invert,
+  ),
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+$box-radius: 0;
+
+hr {
+  height: 1px !important;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-right: 0;
+  background-color: #3ef980 !important;
+  border: none;
+}
+
+.is-link {
+  text-decoration: underline;
+}
+
+// Import Bulma and Buefy styles
+@import '~bulma';
+@import '~buefy/src/scss/buefy';

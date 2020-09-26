@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="155px" height="200px" viewBox="0 0 155 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>marker copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-52.1%" y="-36.6%" width="204.1%" height="178.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.243137255   0 0 0 0 0.976470588   0 0 0 0 0.501960784  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Macbooks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="marker-copy" filter="url(#filter-1)" transform="translate(27.000000, 29.000000)">
+            <path d="M48.5,137.661361 C80.8534798,93.956714 97,62.9994549 97,46.5 C97,20.8980943 75.3621502,0 48.5,0 C21.6378498,0 0,20.8980943 0,46.5 C0,62.9994532 16.1465171,93.956708 48.5,137.661361 L48.5,137.661361 Z" id="Oval" stroke="#3EF980" stroke-width="20" fill="#FFFFFF"></path>
+            <circle id="Oval" fill="#3EF980" fill-rule="nonzero" cx="49" cy="53" r="19"></circle>
+        </g>
+    </g>
+</svg>
