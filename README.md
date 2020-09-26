@@ -5,19 +5,17 @@ This was a sideproject created to demo drag n drop and a bit of Vue fun.
 
 Backend is showcash-api which is written in Golang
 
+It has tags, comments, easy markup, search and a load of unfinished bits.
+
+Killed and opensourced due to time
+
 ## What it looks like
 
-### Main
+Main
+![](https://i.imgur.com/jwIx3ss.png)
 
-![alt text](https://raw.githubusercontent.com/17twenty/showcash/master/docs/main.png)
-
-### Viewer
-
-![alt text](https://raw.githubusercontent.com/17twenty/showcash/master/docs/view.png)
-
-### Comments
-
-![alt text](https://raw.githubusercontent.com/17twenty/showcash/master/docs/comments.png)
+View/Edit
+![](https://i.imgur.com/93PRH3O.png)
 
 ## Project setup
 
